@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632427758254,
+  "lastUpdate": 1632514012119,
   "repoUrl": "https://github.com/aws-observability/aws-otel-go",
   "entries": {
     "Soak Test Results - sample-app-golang_alpine-manual": [
@@ -31,6 +31,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 700.48046875,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "(Eliseo) Nathaniel Ruiz Nowell",
+            "username": "NathanielRN",
+            "email": "enowell@amazon.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "78a7219fbd1834f6d7cecb93d84e32724329974f",
+          "message": "Add DEBUG Log Level to integration workflow (#103)",
+          "timestamp": "2021-09-23T20:24:22Z",
+          "url": "https://github.com/aws-observability/aws-otel-go/commit/78a7219fbd1834f6d7cecb93d84e32724329974f"
+        },
+        "date": 1632514011706,
+        "tool": "custombenchmark",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 25.847559523809526,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 700.4718480603449,
             "unit": "Megabytes"
           }
         ]
