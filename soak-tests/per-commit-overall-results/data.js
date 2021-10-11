@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632946310790,
+  "lastUpdate": 1633982798198,
   "repoUrl": "https://github.com/aws-observability/aws-otel-go",
   "entries": {
     "Soak Test Results - sample-app-golang_alpine-manual": [
@@ -95,6 +95,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 697.8339170258621,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Bhautik Pipaliya",
+            "username": "bhautikpip",
+            "email": "56270044+bhautikpip@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "81b1c5f0df152fe455b3284d09bb9a44800401a8",
+          "message": "Revert \"Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc (#111)\" (#115)\n\nThis reverts commit 828207af5d67ea957b9ee0feaf1340446f33c116.",
+          "timestamp": "2021-10-11T18:07:28Z",
+          "url": "https://github.com/aws-observability/aws-otel-go/commit/81b1c5f0df152fe455b3284d09bb9a44800401a8"
+        },
+        "date": 1633982797572,
+        "tool": "custombenchmark",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 0.00011904761904761906,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 696.98046875,
             "unit": "Megabytes"
           }
         ]
