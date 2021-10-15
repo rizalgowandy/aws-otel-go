@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633982798198,
+  "lastUpdate": 1634328402201,
   "repoUrl": "https://github.com/aws-observability/aws-otel-go",
   "entries": {
     "Soak Test Results - sample-app-golang_alpine-manual": [
@@ -122,6 +122,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average CPU Load",
             "value": 0.00011904761904761906,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 696.98046875,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "(Eliseo) Nathaniel Ruiz Nowell",
+            "username": "NathanielRN",
+            "email": "enowell@amazon.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e8aca1a02d51f65f44097b2f8cbb1522029ce674",
+          "message": "Detect docker-compose start up failures and fail soak tests early (#118)",
+          "timestamp": "2021-10-15T04:19:44Z",
+          "url": "https://github.com/aws-observability/aws-otel-go/commit/e8aca1a02d51f65f44097b2f8cbb1522029ce674"
+        },
+        "date": 1634328401505,
+        "tool": "custombenchmark",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 0.00011904761904761905,
             "unit": "Percent"
           },
           {
