@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634328402201,
+  "lastUpdate": 1635365232465,
   "repoUrl": "https://github.com/aws-observability/aws-otel-go",
   "entries": {
     "Soak Test Results - sample-app-golang_alpine-manual": [
@@ -159,6 +159,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 696.98046875,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Bhautik Pipaliya",
+            "username": "bhautikpip",
+            "email": "56270044+bhautikpip@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "030cda701d5c91fc34e6ddacd04bc6e42afce204",
+          "message": "remove metric emitting logic and update to 1.0.1 (#119)\n\n* remove metric emitting logic and update to 1.0.1\r\n\r\n* remove testing branch from CI workflow",
+          "timestamp": "2021-10-26T19:52:48Z",
+          "url": "https://github.com/aws-observability/aws-otel-go/commit/030cda701d5c91fc34e6ddacd04bc6e42afce204"
+        },
+        "date": 1635365231991,
+        "tool": "custombenchmark",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 0.00014367816091954023,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 697.9921875,
             "unit": "Megabytes"
           }
         ]
