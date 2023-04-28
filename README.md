@@ -16,7 +16,9 @@ ADOT is in preview for Go metrics.
 
 Check out the getting started [documentation](https://aws-otel.github.io/docs/getting-started/go-sdk)
 
-## Sample Application
+## Sample Application (DEPRECATED)
+
+**WARNING:** This sample app is deprecated and is no longer maintained.  Please use the [new standardized sample apps](https://github.com/aws-observability/aws-otel-community/tree/master/sample-apps).
 
 See the [example sample application](https://github.com/aws-observability/aws-otel-go/blob/main/sampleapp/main.go) for setup steps.
 
@@ -28,6 +30,9 @@ The [OpenTelemetry Go](https://github.com/open-telemetry/opentelemetry-go) SDK p
 * [OpenTelemetry Go core Repo](https://github.com/open-telemetry/opentelemetry-go)
 * [OpenTelemetry Go Contrib Repo](https://github.com/open-telemetry/opentelemetry-go-contrib)
 * [AWS Distro for OpenTelemetry](https://aws-otel.github.io/)
+
+## Security issue notifications
+If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
 
 ## License
 
